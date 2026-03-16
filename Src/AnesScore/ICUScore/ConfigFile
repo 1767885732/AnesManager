@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<CofinDataSet>
+  <ConfigDataTable>
+    <Menu> 护理文书(&amp;H) </Menu>
+    <Namespace>Medicalsystem.IcuDevekopPlugIn.IcuDevelopPlugIn</Namespace>
+    <ClassName>SpecialCareThe98thPLAPanel</ClassName>
+    <DllName>IcuDevelopPlugIn.dll</DllName>
+  </ConfigDataTable>
+  <ConfigDataTable>
+    <Menu> 护理文书(&amp;H) </Menu>
+    <Namespace>Medicalsystem.IcuDevekopPlugIn.IcuDevelopPlugIn.The98thPLAHospital</Namespace>
+    <ClassName>ICUBedSore</ClassName>
+    <DllName>IcuDevelopPlugIn.dll</DllName>
+  </ConfigDataTable>
+  <ConfigDataTable>
+    <Menu> 护理文书(&amp;H) </Menu>
+    <Namespace>Medicalsystem.IcuDevekopPlugIn.IcuDevelopPlugIn.The98thPLAHospital</Namespace>
+    <ClassName>NursingAssScale</ClassName>
+    <DllName>IcuDevelopPlugIn.dll</DllName>
+  </ConfigDataTable>
+  <ConfigDataTable>
+    <Menu> 护理文书(&amp;H) </Menu>
+    <Namespace>Medicalsystem.IcuDevekopPlugIn.IcuDevelopPlugIn.The98thPLAHospital</Namespace>
+    <ClassName>AccEventAssScale</ClassName>
+    <DllName>IcuDevelopPlugIn.dll</DllName>
+  </ConfigDataTable>
+  <ConfigDataTable>
+    <Menu> 护理文书(&amp;H) </Menu>
+    <Namespace>Medicalsystem.IcuDevekopPlugIn.IcuDevelopPlugIn.The98thPLAHospital</Namespace>
+    <ClassName>NortonScore</ClassName>
+    <DllName>IcuDevelopPlugIn.dll</DllName>
+  </ConfigDataTable>
+</CofinDataSet>

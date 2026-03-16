@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Permissions" targetNamespace="http://tempuri.org/Permissions.xsd" xmlns:mstns="http://tempuri.org/Permissions.xsd" xmlns="http://tempuri.org/Permissions.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SQLConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="SQLConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wis.Anes.BusinessEntity.Properties.Settings.GlobalReference.Default.SQLConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Anes5ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="Anes5ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Wis.Anes.BusinessEntity.Properties.Settings.GlobalReference.Default.Anes5ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="OracleConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="OracleConnectionString (Settings)" PropertyReference="ApplicationSettings.Wis.Anes.BusinessEntity.Properties.Settings.GlobalReference.Default.OracleConnectionString" Provider="System.Data.OracleClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Permissions" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Permissions" msprop:Generator_UserDSName="Permissions">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Users" msprop:Generator_UserTableName="Users" msprop:Generator_RowEvArgName="UsersRowChangeEvent" msprop:Generator_TableVarName="tableUsers" msprop:Generator_TablePropName="Users" msprop:Generator_RowDeletingName="UsersRowDeleting" msprop:Generator_RowChangingName="UsersRowChanging" msprop:Generator_RowDeletedName="UsersRowDeleted" msprop:Generator_RowEvHandlerName="UsersRowChangeEventHandler" msprop:Generator_TableClassName="UsersDataTable" msprop:Generator_RowChangedName="UsersRowChanged" msprop:Generator_RowClassName="UsersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USER_ID" msprop:Generator_ColumnVarNameInTable="columnUSER_ID" msprop:Generator_ColumnPropNameInRow="USER_ID" msprop:Generator_ColumnPropNameInTable="USER_IDColumn" msprop:Generator_UserColumnName="USER_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LOGIN_NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="LOGIN_NAME" msprop:Generator_ColumnVarNameInTable="columnLOGIN_NAME" msprop:Generator_ColumnPropNameInTable="LOGIN_NAMEColumn" msprop:Generator_UserColumnName="LOGIN_NAME" type="xs:string" />
+              <xs:element name="LOGIN_PWD" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="LOGIN_PWD" msprop:Generator_ColumnVarNameInTable="columnLOGIN_PWD" msprop:Generator_ColumnPropNameInTable="LOGIN_PWDColumn" msprop:Generator_UserColumnName="LOGIN_PWD" type="xs:string" />
+              <xs:element name="USER_NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="USER_NAME" msprop:Generator_ColumnVarNameInTable="columnUSER_NAME" msprop:Generator_ColumnPropNameInTable="USER_NAMEColumn" msprop:Generator_UserColumnName="USER_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DEPT_ID" msprop:Generator_ColumnVarNameInTable="columnDEPT_ID" msprop:Generator_ColumnPropNameInTable="DEPT_IDColumn" msprop:Generator_UserColumnName="DEPT_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="CREATE_DATE_TIME" msprop:Generator_ColumnVarNameInTable="columnCREATE_DATE_TIME" msprop:Generator_ColumnPropNameInRow="CREATE_DATE_TIME" msprop:Generator_ColumnPropNameInTable="CREATE_DATE_TIMEColumn" msprop:Generator_UserColumnName="CREATE_DATE_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IS_VALID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="IS_VALID" msprop:Generator_ColumnVarNameInTable="columnIS_VALID" msprop:Generator_ColumnPropNameInTable="IS_VALIDColumn" msprop:Generator_UserColumnName="IS_VALID" type="xs:string" />
+              <xs:element name="MEMO" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="MEMO" msprop:Generator_ColumnVarNameInTable="columnMEMO" msprop:Generator_ColumnPropNameInTable="MEMOColumn" msprop:Generator_UserColumnName="MEMO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rolespermissions" msprop:Generator_UserTableName="Rolespermissions" msprop:Generator_RowEvArgName="RolespermissionsRowChangeEvent" msprop:Generator_TableVarName="tableRolespermissions" msprop:Generator_TablePropName="Rolespermissions" msprop:Generator_RowDeletingName="RolespermissionsRowDeleting" msprop:Generator_RowChangingName="RolespermissionsRowChanging" msprop:Generator_RowDeletedName="RolespermissionsRowDeleted" msprop:Generator_RowEvHandlerName="RolespermissionsRowChangeEventHandler" msprop:Generator_TableClassName="RolespermissionsDataTable" msprop:Generator_RowChangedName="RolespermissionsRowChanged" msprop:Generator_RowClassName="RolespermissionsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ROLE_ID" msprop:Generator_ColumnVarNameInTable="columnROLE_ID" msprop:Generator_ColumnPropNameInRow="ROLE_ID" msprop:Generator_ColumnPropNameInTable="ROLE_IDColumn" msprop:Generator_UserColumnName="ROLE_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PERMISSION_ID" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_ID" msprop:Generator_ColumnPropNameInRow="PERMISSION_ID" msprop:Generator_ColumnPropNameInTable="PERMISSION_IDColumn" msprop:Generator_UserColumnName="PERMISSION_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UsersRoles" msprop:Generator_UserTableName="UsersRoles" msprop:Generator_RowEvArgName="UsersRolesRowChangeEvent" msprop:Generator_TableVarName="tableUsersRoles" msprop:Generator_TablePropName="UsersRoles" msprop:Generator_RowDeletingName="UsersRolesRowDeleting" msprop:Generator_RowChangingName="UsersRolesRowChanging" msprop:Generator_RowDeletedName="UsersRolesRowDeleted" msprop:Generator_RowEvHandlerName="UsersRolesRowChangeEventHandler" msprop:Generator_TableClassName="UsersRolesDataTable" msprop:Generator_RowChangedName="UsersRolesRowChanged" msprop:Generator_RowClassName="UsersRolesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USER_ID" msprop:Generator_ColumnVarNameInTable="columnUSER_ID" msprop:Generator_ColumnPropNameInRow="USER_ID" msprop:Generator_ColumnPropNameInTable="USER_IDColumn" msprop:Generator_UserColumnName="USER_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ROLE_ID" msprop:Generator_ColumnVarNameInTable="columnROLE_ID" msprop:Generator_ColumnPropNameInRow="ROLE_ID" msprop:Generator_ColumnPropNameInTable="ROLE_IDColumn" msprop:Generator_UserColumnName="ROLE_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Applications" msprop:Generator_UserTableName="Applications" msprop:Generator_RowEvArgName="ApplicationsRowChangeEvent" msprop:Generator_TableVarName="tableApplications" msprop:Generator_TablePropName="Applications" msprop:Generator_RowDeletingName="ApplicationsRowDeleting" msprop:Generator_RowChangingName="ApplicationsRowChanging" msprop:Generator_RowDeletedName="ApplicationsRowDeleted" msprop:Generator_RowEvHandlerName="ApplicationsRowChangeEventHandler" msprop:Generator_TableClassName="ApplicationsDataTable" msprop:Generator_RowChangedName="ApplicationsRowChanged" msprop:Generator_RowClassName="ApplicationsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="APP_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="APP_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_ID" msprop:Generator_ColumnPropNameInTable="APP_IDColumn" msprop:Generator_UserColumnName="APP_ID" type="xs:string" />
+              <xs:element name="NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" type="xs:string" />
+              <xs:element name="DESCRIPTION" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UsersApplications" msprop:Generator_UserTableName="UsersApplications" msprop:Generator_RowEvArgName="UsersApplicationsRowChangeEvent" msprop:Generator_TableVarName="tableUsersApplications" msprop:Generator_TablePropName="UsersApplications" msprop:Generator_RowDeletingName="UsersApplicationsRowDeleting" msprop:Generator_RowChangingName="UsersApplicationsRowChanging" msprop:Generator_RowDeletedName="UsersApplicationsRowDeleted" msprop:Generator_RowEvHandlerName="UsersApplicationsRowChangeEventHandler" msprop:Generator_TableClassName="UsersApplicationsDataTable" msprop:Generator_RowChangedName="UsersApplicationsRowChanged" msprop:Generator_RowClassName="UsersApplicationsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="APP_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="APP_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_ID" msprop:Generator_ColumnPropNameInTable="APP_IDColumn" msprop:Generator_UserColumnName="APP_ID" type="xs:string" />
+              <xs:element name="USER_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="USER_ID" msprop:Generator_ColumnVarNameInTable="columnUSER_ID" msprop:Generator_ColumnPropNameInTable="USER_IDColumn" msprop:Generator_UserColumnName="USER_ID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Roles" msprop:Generator_UserTableName="Roles" msprop:Generator_RowEvArgName="RolesRowChangeEvent" msprop:Generator_TableVarName="tableRoles" msprop:Generator_TablePropName="Roles" msprop:Generator_RowDeletingName="RolesRowDeleting" msprop:Generator_RowChangingName="RolesRowChanging" msprop:Generator_RowDeletedName="RolesRowDeleted" msprop:Generator_RowEvHandlerName="RolesRowChangeEventHandler" msprop:Generator_TableClassName="RolesDataTable" msprop:Generator_RowChangedName="RolesRowChanged" msprop:Generator_RowClassName="RolesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ROLE_ID" msprop:Generator_ColumnVarNameInTable="columnROLE_ID" msprop:Generator_ColumnPropNameInRow="ROLE_ID" msprop:Generator_ColumnPropNameInTable="ROLE_IDColumn" msprop:Generator_UserColumnName="ROLE_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APP_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="APP_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_ID" msprop:Generator_ColumnPropNameInTable="APP_IDColumn" msprop:Generator_UserColumnName="APP_ID" type="xs:string" />
+              <xs:element name="NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" type="xs:string" />
+              <xs:element name="DESCRIPTION" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="CREATE_DATE_TIME" msprop:Generator_ColumnVarNameInTable="columnCREATE_DATE_TIME" msprop:Generator_ColumnPropNameInRow="CREATE_DATE_TIME" msprop:Generator_ColumnPropNameInTable="CREATE_DATE_TIMEColumn" msprop:Generator_UserColumnName="CREATE_DATE_TIME" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Permissios" msprop:Generator_UserTableName="Permissios" msprop:Generator_RowEvArgName="PermissiosRowChangeEvent" msprop:Generator_TableVarName="tablePermissios" msprop:Generator_TablePropName="Permissios" msprop:Generator_RowDeletingName="PermissiosRowDeleting" msprop:Generator_RowChangingName="PermissiosRowChanging" msprop:Generator_RowDeletedName="PermissiosRowDeleted" msprop:Generator_RowEvHandlerName="PermissiosRowChangeEventHandler" msprop:Generator_TableClassName="PermissiosDataTable" msprop:Generator_RowChangedName="PermissiosRowChanged" msprop:Generator_RowClassName="PermissiosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PERMISSION_ID" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_ID" msprop:Generator_ColumnPropNameInRow="PERMISSION_ID" msprop:Generator_ColumnPropNameInTable="PERMISSION_IDColumn" msprop:Generator_UserColumnName="PERMISSION_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APP_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="APP_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_ID" msprop:Generator_ColumnPropNameInTable="APP_IDColumn" msprop:Generator_UserColumnName="APP_ID" type="xs:string" />
+              <xs:element name="NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" type="xs:string" />
+              <xs:element name="PERMISSION_KEY" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="PERMISSION_KEY" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_KEY" msprop:Generator_ColumnPropNameInTable="PERMISSION_KEYColumn" msprop:Generator_UserColumnName="PERMISSION_KEY" type="xs:string" />
+              <xs:element name="SORT_ID" msprop:Generator_ColumnVarNameInTable="columnSORT_ID" msprop:Generator_ColumnPropNameInRow="SORT_ID" msprop:Generator_ColumnPropNameInTable="SORT_IDColumn" msprop:Generator_UserColumnName="SORT_ID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IS_VALID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="IS_VALID" msprop:Generator_ColumnVarNameInTable="columnIS_VALID" msprop:Generator_ColumnPropNameInTable="IS_VALIDColumn" msprop:Generator_UserColumnName="IS_VALID" type="xs:string" />
+              <xs:element name="DESCRIPTION" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="LOGIN_NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="LOGIN_NAME" msprop:Generator_ColumnVarNameInTable="columnLOGIN_NAME" msprop:Generator_ColumnPropNameInTable="LOGIN_NAMEColumn" msprop:Generator_UserColumnName="LOGIN_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WIS_PERM_KIND" msprop:Generator_UserTableName="WIS_PERM_KIND" msprop:Generator_RowEvArgName="WIS_PERM_KINDRowChangeEvent" msprop:Generator_TableVarName="tableWIS_PERM_KIND" msprop:Generator_TablePropName="WIS_PERM_KIND" msprop:Generator_RowDeletingName="WIS_PERM_KINDRowDeleting" msprop:Generator_RowChangingName="WIS_PERM_KINDRowChanging" msprop:Generator_RowDeletedName="WIS_PERM_KINDRowDeleted" msprop:Generator_RowEvHandlerName="WIS_PERM_KINDRowChangeEventHandler" msprop:Generator_TableClassName="WIS_PERM_KINDDataTable" msprop:Generator_RowChangedName="WIS_PERM_KINDRowChanged" msprop:Generator_RowClassName="WIS_PERM_KINDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KIND_ID" msprop:Generator_ColumnVarNameInTable="columnKIND_ID" msprop:Generator_ColumnPropNameInRow="KIND_ID" msprop:Generator_ColumnPropNameInTable="KIND_IDColumn" msprop:Generator_UserColumnName="KIND_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APP_ID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="APP_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_ID" msprop:Generator_ColumnPropNameInTable="APP_IDColumn" msprop:Generator_UserColumnName="APP_ID" type="xs:string" />
+              <xs:element name="NAME" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" type="xs:string" />
+              <xs:element name="SORT_ID" msprop:Generator_ColumnVarNameInTable="columnSORT_ID" msprop:Generator_ColumnPropNameInRow="SORT_ID" msprop:Generator_ColumnPropNameInTable="SORT_IDColumn" msprop:Generator_UserColumnName="SORT_ID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IS_VALID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="IS_VALID" msprop:Generator_ColumnVarNameInTable="columnIS_VALID" msprop:Generator_ColumnPropNameInTable="IS_VALIDColumn" msprop:Generator_UserColumnName="IS_VALID" type="xs:string" />
+              <xs:element name="DESCRIPTION" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WIS_PERM_KIND_RELA" msprop:Generator_UserTableName="WIS_PERM_KIND_RELA" msprop:Generator_RowEvArgName="WIS_PERM_KIND_RELARowChangeEvent" msprop:Generator_TableVarName="tableWIS_PERM_KIND_RELA" msprop:Generator_TablePropName="WIS_PERM_KIND_RELA" msprop:Generator_RowDeletingName="WIS_PERM_KIND_RELARowDeleting" msprop:Generator_RowChangingName="WIS_PERM_KIND_RELARowChanging" msprop:Generator_RowDeletedName="WIS_PERM_KIND_RELARowDeleted" msprop:Generator_RowEvHandlerName="WIS_PERM_KIND_RELARowChangeEventHandler" msprop:Generator_TableClassName="WIS_PERM_KIND_RELADataTable" msprop:Generator_RowChangedName="WIS_PERM_KIND_RELARowChanged" msprop:Generator_RowClassName="WIS_PERM_KIND_RELARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KIND_ID" msprop:Generator_ColumnVarNameInTable="columnKIND_ID" msprop:Generator_ColumnPropNameInRow="KIND_ID" msprop:Generator_ColumnPropNameInTable="KIND_IDColumn" msprop:Generator_UserColumnName="KIND_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PERMISSION_ID" msprop:Generator_ColumnVarNameInTable="columnPERMISSION_ID" msprop:Generator_ColumnPropNameInRow="PERMISSION_ID" msprop:Generator_ColumnPropNameInTable="PERMISSION_IDColumn" msprop:Generator_UserColumnName="PERMISSION_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UsersHisUsers" msprop:Generator_UserTableName="UsersHisUsers" msprop:Generator_RowEvArgName="UsersHisUsersRowChangeEvent" msprop:Generator_TableVarName="tableUsersHisUsers" msprop:Generator_TablePropName="UsersHisUsers" msprop:Generator_RowDeletingName="UsersHisUsersRowDeleting" msprop:Generator_RowChangingName="UsersHisUsersRowChanging" msprop:Generator_RowDeletedName="UsersHisUsersRowDeleted" msprop:Generator_RowEvHandlerName="UsersHisUsersRowChangeEventHandler" msprop:Generator_TableClassName="UsersHisUsersDataTable" msprop:Generator_RowChangedName="UsersHisUsersRowChanged" msprop:Generator_RowClassName="UsersHisUsersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USER_ID" msprop:Generator_ColumnVarNameInTable="columnUSER_ID" msprop:Generator_ColumnPropNameInRow="USER_ID" msprop:Generator_ColumnPropNameInTable="USER_IDColumn" msprop:Generator_UserColumnName="USER_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HIS_USER_ID" msprop:Generator_ColumnVarNameInTable="columnHIS_USER_ID" msprop:Generator_ColumnPropNameInRow="HIS_USER_ID" msprop:Generator_ColumnPropNameInTable="HIS_USER_IDColumn" msprop:Generator_UserColumnName="HIS_USER_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="36" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MEMO" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="MEMO" msprop:Generator_ColumnVarNameInTable="columnMEMO" msprop:Generator_ColumnPropNameInTable="MEMOColumn" msprop:Generator_UserColumnName="MEMO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Users" />
+      <xs:field xpath="mstns:USER_ID" />
+    </xs:unique>
+    <xs:unique name="Rolespermissions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Rolespermissions" />
+      <xs:field xpath="mstns:ROLE_ID" />
+      <xs:field xpath="mstns:PERMISSION_ID" />
+    </xs:unique>
+    <xs:unique name="UsersRoles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UsersRoles" />
+      <xs:field xpath="mstns:USER_ID" />
+      <xs:field xpath="mstns:ROLE_ID" />
+    </xs:unique>
+    <xs:unique name="Roles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Roles" />
+      <xs:field xpath="mstns:ROLE_ID" />
+    </xs:unique>
+    <xs:unique name="Permissios_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Permissios" />
+      <xs:field xpath="mstns:PERMISSION_ID" />
+    </xs:unique>
+    <xs:unique name="WIS_PERM_KIND_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WIS_PERM_KIND" />
+      <xs:field xpath="mstns:KIND_ID" />
+    </xs:unique>
+    <xs:unique name="WIS_PERM_KIND_RELA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WIS_PERM_KIND_RELA" />
+      <xs:field xpath="mstns:KIND_ID" />
+      <xs:field xpath="mstns:PERMISSION_ID" />
+    </xs:unique>
+    <xs:unique name="UsersHisUsers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UsersHisUsers" />
+      <xs:field xpath="mstns:USER_ID" />
+      <xs:field xpath="mstns:HIS_USER_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

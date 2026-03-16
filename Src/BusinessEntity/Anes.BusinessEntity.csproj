@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D09DFB05-5C3A-4676-B5A2-443EF2E3E071}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wis.Anes.BusinessEntity</RootNamespace>
+    <AssemblyName>Anes.BusinessEntity</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug64|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug64|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acs1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Acs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Analgesic1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Analgesic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnesInformations.cs">
+      <DependentUpon>AnesInformations.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnesInformations1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnesInformations.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnesthesiaSheet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnesthesiaSheet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareDocs.cs">
+      <DependentUpon>CareDocs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareDocs1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareDocs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareItems.cs">
+      <DependentUpon>CareItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareItems.designer.cs">
+      <DependentUpon>CareItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckReport.cs">
+      <DependentUpon>CheckReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CheckReport.designer.cs">
+      <DependentUpon>CheckReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Common.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration.cs">
+      <DependentUpon>Configuration.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Configuration.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CPB1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Designer1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Designer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dict.cs">
+      <DependentUpon>Dict.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dict.Designer.cs">
+      <DependentUpon>Dict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dict1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dict.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.cs">
+      <DependentUpon>Patient.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientBaseInformations.cs">
+      <DependentUpon>PatientBaseInformations.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PatientBaseInformations.designer.cs">
+      <DependentUpon>PatientBaseInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permission.cs">
+      <DependentUpon>Permission.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Permission.designer.cs">
+      <DependentUpon>Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Score.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Score.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics.cs">
+      <DependentUpon>Statistics.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics.Designer.cs">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statistics.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sync.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sync.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Acs.xsc">
+      <DependentUpon>Acs.xsd</DependentUpon>
+    </None>
+    <None Include="Acs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Acs1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Acs.xss">
+      <DependentUpon>Acs.xsd</DependentUpon>
+    </None>
+    <None Include="Analgesic.xsc">
+      <DependentUpon>Analgesic.xsd</DependentUpon>
+    </None>
+    <None Include="Analgesic.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Analgesic1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Analgesic.xss">
+      <DependentUpon>Analgesic.xsd</DependentUpon>
+    </None>
+    <None Include="AnesInformations.xsc">
+      <DependentUpon>AnesInformations.xsd</DependentUpon>
+    </None>
+    <None Include="AnesInformations.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnesInformations1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnesInformations.xss">
+      <DependentUpon>AnesInformations.xsd</DependentUpon>
+    </None>
+    <None Include="AnesthesiaSheet.xsc">
+      <DependentUpon>AnesthesiaSheet.xsd</DependentUpon>
+    </None>
+    <None Include="AnesthesiaSheet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnesthesiaSheet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnesthesiaSheet.xss">
+      <DependentUpon>AnesthesiaSheet.xsd</DependentUpon>
+    </None>
+    <None Include="CareDocs.xsc">
+      <DependentUpon>CareDocs.xsd</DependentUpon>
+    </None>
+    <None Include="CareDocs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareDocs1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareDocs.xss">
+      <DependentUpon>CareDocs.xsd</DependentUpon>
+    </None>
+    <None Include="CareItems.xsc">
+      <DependentUpon>CareItems.xsd</DependentUpon>
+    </None>
+    <None Include="CareItems.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareItems.xss">
+      <DependentUpon>CareItems.xsd</DependentUpon>
+    </None>
+    <None Include="CheckReport.xsc">
+      <DependentUpon>CheckReport.xsd</DependentUpon>
+    </None>
+    <None Include="CheckReport.xsd" />
+    <None Include="CheckReport.xss">
+      <DependentUpon>CheckReport.xsd</DependentUpon>
+    </None>
+    <None Include="Common.xsc">
+      <DependentUpon>Common.xsd</DependentUpon>
+    </None>
+    <None Include="Common.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Common1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Common.xss">
+      <DependentUpon>Common.xsd</DependentUpon>
+    </None>
+    <None Include="Configuration.xsc">
+      <DependentUpon>Configuration.xsd</DependentUpon>
+    </None>
+    <None Include="Configuration.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Configuration1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Configuration.xss">
+      <DependentUpon>Configuration.xsd</DependentUpon>
+    </None>
+    <None Include="CPB.xsc">
+      <DependentUpon>CPB.xsd</DependentUpon>
+    </None>
+    <None Include="CPB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CPB1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CPB.xss">
+      <DependentUpon>CPB.xsd</DependentUpon>
+    </None>
+    <None Include="Designer.xsc">
+      <DependentUpon>Designer.xsd</DependentUpon>
+    </None>
+    <None Include="Designer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Designer1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Designer.xss">
+      <DependentUpon>Designer.xsd</DependentUpon>
+    </None>
+    <None Include="Dict.xsc">
+      <DependentUpon>Dict.xsd</DependentUpon>
+    </None>
+    <None Include="Dict.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dict1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dict.xss">
+      <DependentUpon>Dict.xsd</DependentUpon>
+    </None>
+    <None Include="Patient.xsc">
+      <DependentUpon>Patient.xsd</DependentUpon>
+    </None>
+    <None Include="Patient.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Patient.xss">
+      <DependentUpon>Patient.xsd</DependentUpon>
+    </None>
+    <None Include="PatientBaseInformations.xsc">
+      <DependentUpon>PatientBaseInformations.xsd</DependentUpon>
+    </None>
+    <None Include="PatientBaseInformations.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PatientBaseInformations.xss">
+      <DependentUpon>PatientBaseInformations.xsd</DependentUpon>
+    </None>
+    <None Include="Permission.xsc">
+      <DependentUpon>Permission.xsd</DependentUpon>
+    </None>
+    <None Include="Permission.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Permission.xss">
+      <DependentUpon>Permission.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Score.xsc">
+      <DependentUpon>Score.xsd</DependentUpon>
+    </None>
+    <None Include="Score.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Score.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Score.xss">
+      <DependentUpon>Score.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics.xsc">
+      <DependentUpon>Statistics.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Statistics1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Statistics.xss">
+      <DependentUpon>Statistics.xsd</DependentUpon>
+    </None>
+    <None Include="Sync.xsc">
+      <DependentUpon>Sync.xsd</DependentUpon>
+    </None>
+    <None Include="Sync.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Sync.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sync.xss">
+      <DependentUpon>Sync.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AAE70C4-7558-49BB-A54D-6FBD141D6746}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wis.AccessControl</RootNamespace>
+    <AssemblyName>Wis.AccessControl</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Devart.Data">
+      <HintPath>..\..\Lib\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.Oracle">
+      <HintPath>..\..\Lib\Devart.Data.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core">
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2">
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2">
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v15.2">
+    </Reference>
+    <Reference Include="iMedical.CommonLib">
+      <HintPath>..\..\Lib\iMedical.CommonLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20">
+      <HintPath>..\..\Lib\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\PermissionAPI.cs" />
+    <Compile Include="API\ResourceAPI.cs" />
+    <Compile Include="API\RoleAPI.cs" />
+    <Compile Include="API\UserAPI.cs" />
+    <Compile Include="Attributes\ResourceAttribute.cs" />
+    <Compile Include="Configuration\AccessControlSettingSection.cs" />
+    <Compile Include="Configuration\ConfigurationHelper.cs" />
+    <Compile Include="Configuration\ExtendInfoCollection.cs" />
+    <Compile Include="Configuration\ExtendInfoItem.cs" />
+    <Compile Include="Configuration\UserSettings.cs" />
+    <Compile Include="Configuration\RoleSettings.cs" />
+    <Compile Include="Configuration\ResourceSettings.cs" />
+    <Compile Include="Configuration\PermissionSettings.cs" />
+    <Compile Include="Entity\Permission.cs" />
+    <Compile Include="Entity\ExtendInfo.cs" />
+    <Compile Include="Entity\OperationEnum.cs" />
+    <Compile Include="Entity\ResourceType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\Role.cs" />
+    <Compile Include="Entity\Resource.cs" />
+    <Compile Include="Provider\OracleProvider\OraclePermissionAccessControlProvider.cs" />
+    <Compile Include="Provider\OracleProvider\OracleAccessControlProvider.cs" />
+    <Compile Include="Provider\OracleProvider\OracleResourceAccessControlProvider.cs" />
+    <Compile Include="Provider\OracleProvider\OracleRoleAccessControlProvide.cs" />
+    <Compile Include="Provider\OracleProvider\OracleUserAccessControlProvider.cs" />
+    <Compile Include="Provider\AccessControlProvider.cs" />
+    <Compile Include="Provider\OracleProvider\OracleSqlBuilder.cs" />
+    <Compile Include="Provider\SqlSeverProvider\SqlSeverAccessControlProvider.cs" />
+    <Compile Include="Provider\SqlSeverProvider\SqlSeverPermissionAccessControlProvider.cs" />
+    <Compile Include="Provider\SqlSeverProvider\SqlSeverResourceAccessControlProvider.cs" />
+    <Compile Include="Provider\SqlSeverProvider\SqlSeverRoleAccessControlProvide.cs" />
+    <Compile Include="Provider\SqlSeverProvider\SqlSeverSqlBuilder.cs" />
+    <Compile Include="Provider\SqlSeverProvider\SqlSeverUserAccessControlProvider.cs" />
+    <Compile Include="RowMapper\PermissionRowMapper.cs" />
+    <Compile Include="RowMapper\ResourceRowMapper.cs" />
+    <Compile Include="RowMapper\RoleRowMapper.cs" />
+    <Compile Include="RowMapper\RowMapperHelper.cs" />
+    <Compile Include="RowMapper\UserRowMapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

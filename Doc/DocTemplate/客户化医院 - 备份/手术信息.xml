@@ -1,0 +1,2981 @@
+
+  <Object type="System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Form1" children="Controls">
+    <Object type="System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Panel1" children="Controls">
+      <Object type="Wis.Anes.Framework.Controls.MedMyLine, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MedMyLine1" children="Controls">
+        <Property name="NoPrint">False</Property>
+        <Property name="Text">MedMyLine1</Property>
+        <Property name="TabIndex">302</Property>
+        <Property name="LineStyle">Solid</Property>
+        <Property name="Margin">0, 0, 0, 0</Property>
+        <Property name="Size">721, 1</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="Location">2, 83</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="LineType">Horizontal</Property>
+        <Property name="Name">MedMyLine1</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483612" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">红色字体项目支持对绿色通道的病人基本信息进行修改，但平时非绿色通道病人请勿随意操作！！！</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">577, 12</Property>
+        <Property name="TabIndex">301</Property>
+        <Property name="Name">MLabel2147483612</Property>
+        <Property name="Location">16, 9</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483627" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">INCISION_CLASS</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483627</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">ITEM_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">ITEM_NAME</Property>
+        <Property name="FieldName">MTextBox2147483627</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">INCISION_CLASS</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">ITEM_CLASS='切口等级'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Location">75, 313</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">ITEM_CODE</Property>
+        <Property name="CelerityInputSqlWhere">ITEM_CLASS='切口等级'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">274</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">ITEM_CODE</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483613" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">EMERGENCY_INDICATOR</Property>
+        <Property name="BindList" />
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">False</Property>
+        <Property name="Name">MTextBox2147483613</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">ITEM_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage">急诊择期为必填项</Property>
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">ITEM_NAME</Property>
+        <Property name="FieldName">MTextBox2147483613</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">EMERGENCY_INDICATOR</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">ITEM_CLASS='急诊择期'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Location">457, 313</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">ITEM_CODE</Property>
+        <Property name="CelerityInputSqlWhere">ITEM_CLASS='急诊择期'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">277</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">ITEM_CODE</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483641" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">DEPT_STAYED</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">False</Property>
+        <Property name="Name">MTextBox2147483641</Property>
+        <Property name="Size">307, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">DEPT_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">DEPT_NAME</Property>
+        <Property name="FieldName">MTextBox2147483641</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">DEPT_STAYED</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_DEPT</Property>
+        <Property name="Location">75, 95</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">DEPT_CODE</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_DEPT</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">249</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">DEPT_CODE</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483634" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">手术等级</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">262</Property>
+        <Property name="Name">MLabel2147483634</Property>
+        <Property name="Location">226, 250</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483634" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">OPER_SCALE</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">False</Property>
+        <Property name="Name">MTextBox2147483634</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">ITEM_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">ITEM_NAME</Property>
+        <Property name="FieldName">MTextBox2147483634</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">OPER_SCALE</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">ITEM_CLASS='手术等级'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Location">287, 247</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">ITEM_NAME</Property>
+        <Property name="CelerityInputSqlWhere">ITEM_CLASS='手术等级'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">263</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">ITEM_NAME</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MtextRoomNo" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">OPERATING_ROOM_NO</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="ImeMode">Disable</Property>
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">False</Property>
+        <Property name="Name">MtextRoomNo</Property>
+        <Property name="Size">92, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">ROOM_NO</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage">手术间为必填项</Property>
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">ROOM_NO</Property>
+        <Property name="FieldName">MTextBox2147483636</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">Integer</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">OPERATING_ROOM_NO</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_OPER_ROOM</Property>
+        <Property name="Location">287, 214</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">ROOM_NO</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_OPER_ROOM</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">259</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">ROOM_NO</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483633" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">ANES_METHOD</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">False</Property>
+        <Property name="Name">MTextBox2147483633</Property>
+        <Property name="Size">249, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">ANES_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage">麻醉方法为必填项</Property>
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">ANES_NAME</Property>
+        <Property name="FieldName">MTextBox2147483633</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">ANES_METHOD</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_ANES</Property>
+        <Property name="Location">457, 247</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">ANES_NAME</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_ANES</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">265</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">ANES_NAME</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483640" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">DIAG_BEFORE_OPER</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483640</Property>
+        <Property name="Size">631, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">DIAGNOSIS_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">DIAGNOSIS_NAME</Property>
+        <Property name="FieldName">MTextBox2147483640</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">DIAG_BEFORE_OPER</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_DIAGNOSIS</Property>
+        <Property name="Location">75, 124</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">DIAGNOSIS_NAME</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_DIAGNOSIS</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">251</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">DIAGNOSIS_NAME</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483614" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">OPER_NAME</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483614</Property>
+        <Property name="Size">631, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">OPER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage">手术名称为必填项</Property>
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">OPER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483614</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">OPER_NAME</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_OPERATION</Property>
+        <Property name="Location">75, 150</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">OPER_NAME</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_OPERATION</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">294</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">OPER_NAME</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483614" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">*</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">11, 12</Property>
+        <Property name="TabIndex">300</Property>
+        <Property name="Name">MLabel2147483614</Property>
+        <Property name="Location">65, 97</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483616" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">*</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">11, 12</Property>
+        <Property name="TabIndex">300</Property>
+        <Property name="Name">MLabel2147483616</Property>
+        <Property name="Location">277, 219</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483613" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">*</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">11, 12</Property>
+        <Property name="TabIndex">300</Property>
+        <Property name="Name">MLabel2147483613</Property>
+        <Property name="Location">448, 315</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483617" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">*</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">11, 12</Property>
+        <Property name="TabIndex">300</Property>
+        <Property name="Name">MLabel2147483617</Property>
+        <Property name="Location">448, 250</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483619" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">*</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">11, 12</Property>
+        <Property name="TabIndex">300</Property>
+        <Property name="Name">MLabel2147483619</Property>
+        <Property name="Location">65, 152</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.CustomControl, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomControl1" children="Controls">
+        <Property name="Name">CustomControl1</Property>
+        <Property name="SimpleValue" />
+        <Property name="EffectUseIndex">False</Property>
+        <Property name="PrintColor">Black</Property>
+        <Property name="IsDrawAll">False</Property>
+        <Property name="DictTableName" />
+        <Property name="DisplayFieldName">ITEM_NAME</Property>
+        <Property name="ReadOnly">False</Property>
+        <Property name="EffectControls">
+          <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAEVBbmVzLkZyYW1ld29yaywgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwEAQAAAKoBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tNZWRpY2Fsc3lzdGVtLkFuZXMuRnJhbWV3b3JrLkNvbnRyb2xzLkN1c3RvbUNvbnRyb2wrRWZmZWN0SXRlbSwgQW5lcy5GcmFtZXdvcmssIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAAEBNZWRpY2Fsc3lzdGVtLkFuZXMuRnJhbWV3b3JrLkNvbnRyb2xzLkN1c3RvbUNvbnRyb2wrRWZmZWN0SXRlbVtdAgAAAAgICQMAAAAAAAAAAAAAAAcDAAAAAAEAAAAAAAAABD5NZWRpY2Fsc3lzdGVtLkFuZXMuRnJhbWV3b3JrLkNvbnRyb2xzLkN1c3RvbUNvbnRyb2wrRWZmZWN0SXRlbQIAAAAL</Binary>
+        </Property>
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="FieldName">ISOLATION_INDICATOR</Property>
+        <Property name="IsVert">False</Property>
+        <Property name="SourceFieldName">ISOLATION_INDICATOR</Property>
+        <Property name="CheckBoxLocation">Left</Property>
+        <Property name="MultiSelect">False</Property>
+        <Property name="TableName" />
+        <Property name="Value" />
+        <Property name="DefaultCheckValue" />
+        <Property name="ValueFieldName" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="DefaultItems">
+          <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAEVBbmVzLkZyYW1ld29yaywgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwEAQAAAKsBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tNZWRpY2Fsc3lzdGVtLkFuZXMuRnJhbWV3b3JrLkNvbnRyb2xzLkN1c3RvbUNvbnRyb2wrRGVmdWFsdEl0ZW0sIEFuZXMuRnJhbWV3b3JrLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbF1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAABBTWVkaWNhbHN5c3RlbS5BbmVzLkZyYW1ld29yay5Db250cm9scy5DdXN0b21Db250cm9sK0RlZnVhbHRJdGVtW10CAAAACAgJAwAAAAMAAAAUAAAABwMAAAAAAQAAAAQAAAAEP01lZGljYWxzeXN0ZW0uQW5lcy5GcmFtZXdvcmsuQ29udHJvbHMuQ3VzdG9tQ29udHJvbCtEZWZ1YWx0SXRlbQIAAAAJBAAAAAkFAAAACQYAAAAKBQQAAAA/TWVkaWNhbHN5c3RlbS5BbmVzLkZyYW1ld29yay5Db250cm9scy5DdXN0b21Db250cm9sK0RlZnVhbHRJdGVtAwAAAAlfaXRlbU5hbWUKX2l0ZW1WYWx1ZQtfbGVmdE1hcmdpbgEBAAgCAAAABgcAAAAG5q2j5bi4BggAAAABMAAAAAABBQAAAAQAAAAGCQAAAAbpmpTnprsGCgAAAAEyAAAAAAEGAAAABAAAAAYLAAAABuaUvuWwhAYMAAAAATMAAAAACw==</Binary>
+        </Property>
+        <Property name="Location">76, 247</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="DictWhereString" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="Size">146, 27</Property>
+        <Property name="TabIndex">299</Property>
+        <Property name="SqlWhereFilter">
+        </Property>
+        <Property name="GroupName" />
+        <Property name="NoPrint">False</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483621" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">(双击选择手术间)</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">101, 12</Property>
+        <Property name="TabIndex">296</Property>
+        <Property name="Name">MLabel2147483621</Property>
+        <Property name="Location">380, 219</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483622" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">急诊择期</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">295</Property>
+        <Property name="Name">MLabel2147483622</Property>
+        <Property name="Location">398, 315</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483623" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">手术名称</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">293</Property>
+        <Property name="Name">MLabel2147483623</Property>
+        <Property name="Location">16, 152</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483616" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SECOND_SUPPLY_NURSE</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483616</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483616</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SECOND_SUPPLY_NURSE</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">509, 410</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">291</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483617" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">FIRST_SUPPLY_NURSE</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483617</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483617</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">FIRST_SUPPLY_NURSE</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">403, 410</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">290</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483624" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">巡回护士</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">289</Property>
+        <Property name="Name">MLabel2147483624</Property>
+        <Property name="Location">344, 412</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483618" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SECOND_OPER_NURSE</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483618</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483618</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SECOND_OPER_NURSE</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">181, 412</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">288</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483619" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">FIRST_OPER_NURSE</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483619</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483619</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">FIRST_OPER_NURSE</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">75, 412</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='护士'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">287</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483625" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">洗手护士</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">286</Property>
+        <Property name="Name">MLabel2147483625</Property>
+        <Property name="Location">16, 414</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483620" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">FOURTH_ANES_ASSISTANT</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483620</Property>
+        <Property name="Size">131, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483620</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">FOURTH_ANES_ASSISTANT</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">75, 379</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">285</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483626" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">灌注医生</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">284</Property>
+        <Property name="Name">MLabel2147483626</Property>
+        <Property name="Location">16, 381</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483622" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">THIRD_ASSISTANT</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483622</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483622</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">THIRD_ASSISTANT</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">499, 346</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">282</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483627" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">手术助手</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">281</Property>
+        <Property name="Name">MLabel2147483627</Property>
+        <Property name="Location">228, 348</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483623" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SECOND_ASSISTANT</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483623</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483623</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SECOND_ASSISTANT</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">393, 346</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">280</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483624" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">FIRST_ASSISTANT</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483624</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483624</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">FIRST_ASSISTANT</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">287, 346</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">279</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483625" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SURGEON</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483625</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483625</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SURGEON</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">75, 346</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">278</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483628" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">手术医师</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">277</Property>
+        <Property name="Name">MLabel2147483628</Property>
+        <Property name="Location">16, 348</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483626" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">INCISION_NUMBER</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="ImeMode">Disable</Property>
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483626</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483626</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">Integer</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">INCISION_NUMBER</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">287, 313</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">276</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483629" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">切口个数</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">275</Property>
+        <Property name="Name">MLabel2147483629</Property>
+        <Property name="Location">228, 315</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483630" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">切口等级</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">273</Property>
+        <Property name="Name">MLabel2147483630</Property>
+        <Property name="Location">16, 315</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483630" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SECOND_ANES_DOCTOR</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483630</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483630</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SECOND_ANES_DOCTOR</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='医生'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">181, 280</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='医生'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">269</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483631" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">THIRD_ANES_DOCTOR</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483631</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483631</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">THIRD_ANES_DOCTOR</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='医生'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">287, 280</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='医生'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">268</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBoxAnesDoctor" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">ANES_DOCTOR</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBoxAnesDoctor</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName">USER_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">USER_NAME</Property>
+        <Property name="FieldName">MTextBox2147483632</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">ANES_DOCTOR</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">user_dept='STS1'and user_job='医生'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Location">75, 280</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">USER_ID</Property>
+        <Property name="CelerityInputSqlWhere">user_dept='STS1'and user_job='医生'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_PERM_HIS_USER</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">267</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">USER_ID</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483632" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">麻醉医师</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">266</Property>
+        <Property name="Name">MLabel2147483632</Property>
+        <Property name="Location">16, 282</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483633" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">麻醉方法</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">264</Property>
+        <Property name="Name">MLabel2147483633</Property>
+        <Property name="Location">398, 250</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483635" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">隔    离</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">260</Property>
+        <Property name="Name">MLabel2147483635</Property>
+        <Property name="Location">16, 249</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483636" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">手 术 间</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">258</Property>
+        <Property name="Name">MLabel2147483636</Property>
+        <Property name="Location">224, 219</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MtextSeqence" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SEQUENCE</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="ImeMode">Disable</Property>
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MtextSeqence</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483637</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">Integer</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SEQUENCE</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">584, 214</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">257</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483637" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">台    次</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">256</Property>
+        <Property name="Name">MLabel2147483637</Property>
+        <Property name="Location">523, 219</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483638" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SCHEDULED_DATE_TIME</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format">yyyy-MM-dd HH:mm</Property>
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483638</Property>
+        <Property name="Size">133, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483638</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SCHEDULED_DATE_TIME</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">75, 214</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">255</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483638" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">手术时间</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">254</Property>
+        <Property name="Name">MLabel2147483638</Property>
+        <Property name="Location">16, 216</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483639" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">PAT_CONDITION</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483639</Property>
+        <Property name="Size">631, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483639</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">PAT_CONDITION</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">75, 181</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">253</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Blue</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483639" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">病    情</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">252</Property>
+        <Property name="Name">MLabel2147483639</Property>
+        <Property name="Location">16, 183</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483640" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">主要诊断</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">250</Property>
+        <Property name="Name">MLabel2147483640</Property>
+        <Property name="Location">16, 126</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483641" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">所在科室</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">53, 12</Property>
+        <Property name="TabIndex">248</Property>
+        <Property name="Name">MLabel2147483641</Property>
+        <Property name="Location">16, 97</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483642" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">DATE_OF_BIRTH</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+        <Property name="Format">yyyy-MM-dd</Property>
+        <Property name="ImeMode">Disable</Property>
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483642</Property>
+        <Property name="Size">124, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483642</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">Date</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">DATE_OF_BIRTH</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">582, 29</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">247</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483642" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">出生日期</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">57, 12</Property>
+        <Property name="TabIndex">246</Property>
+        <Property name="Name">MLabel2147483642</Property>
+        <Property name="Location">523, 33</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483643" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">SEX</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483643</Property>
+        <Property name="Size">49, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="DisplayFieldName">ITEM_NAME</Property>
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName">ITEM_NAME</Property>
+        <Property name="FieldName">MTextBox2147483643</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">SEX</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString">ITEM_CLASS='性别'</Property>
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Location">453, 29</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName">ITEM_NAME</Property>
+        <Property name="CelerityInputSqlWhere">ITEM_CLASS='性别'</Property>
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName">WIS_DICT_ANES_INPUT</Property>
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">245</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="Enabled">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName">ITEM_NAME</Property>
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483643" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">性    别</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">59, 12</Property>
+        <Property name="TabIndex">244</Property>
+        <Property name="Name">MLabel2147483643</Property>
+        <Property name="Location">392, 33</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483612" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">INP_NO</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483612</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483644</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">INP_NO</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">282, 56</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">243</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483644" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_OPER_MASTER</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">BED_NO</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483644</Property>
+        <Property name="Size">68, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_OPER_MASTER</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483644</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">BED_NO</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">75, 56</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">243</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483611" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">住院号：</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">57, 12</Property>
+        <Property name="TabIndex">241</Property>
+        <Property name="Name">MLabel2147483611</Property>
+        <Property name="Location">222, 60</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483645" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">NAME</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483645</Property>
+        <Property name="Size">100, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483645</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">NAME</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">282, 29</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">242</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="Enabled">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483644" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">床    号</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">59, 12</Property>
+        <Property name="TabIndex">241</Property>
+        <Property name="Name">MLabel2147483644</Property>
+        <Property name="Location">18, 60</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483645" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">姓    名</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">59, 12</Property>
+        <Property name="TabIndex">240</Property>
+        <Property name="Name">MLabel2147483645</Property>
+        <Property name="Location">221, 31</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MTextBox, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MTextBox2147483646" children="Controls">
+        <Property name="LabItemName" />
+        <Property name="PrintTail" />
+        <Property name="SourceTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="BorderWidth">1</Property>
+        <Property name="SourceFieldName">PAT_ID</Property>
+        <Property name="BindList" />
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+        <Property name="Format" />
+        <Property name="BottomLineStyle">Dash</Property>
+        <Property name="ProgramChanging">False</Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="CanEdit">True</Property>
+        <Property name="Name">MTextBox2147483646</Property>
+        <Property name="Size">133, 21</Property>
+        <Property name="Minimum" />
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="BindTableName">WIS_PAT_MASTER_INDEX</Property>
+        <Property name="DisplayFieldName" />
+        <Property name="HasLookUpItems">False</Property>
+        <Property name="SelfValueChanged">False</Property>
+        <Property name="InputNeededMessage" />
+        <Property name="DefaultPrintText">
+        </Property>
+        <Property name="BorderColor">LightGray</Property>
+        <Property name="CelerityInputCodeColumnName" />
+        <Property name="FieldName">MTextBox2147483646</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="UnderLineOffset">0</Property>
+        <Property name="ExamItemName" />
+        <Property name="SelfValue" />
+        <Property name="DotNumber">0</Property>
+        <Property name="ErrorText" />
+        <Property name="InputType">General</Property>
+        <Property name="OldForeColor">WindowText</Property>
+        <Property name="MultiSign">False</Property>
+        <Property name="BindFieldName">PAT_ID</Property>
+        <Property name="IsDrawBorder">False</Property>
+        <Property name="SummaryName" />
+        <Property name="DictWhereString" />
+        <Property name="LockInput">False</Property>
+        <Property name="InitValue" />
+        <Property name="BorderStyle">FixedSingle</Property>
+        <Property name="DictTableName" />
+        <Property name="Location">75, 29</Property>
+        <Property name="BackColor">White</Property>
+        <Property name="NullAble">True</Property>
+        <Property name="OnlyBottomLine">False</Property>
+        <Property name="StoredValue" />
+        <Property name="MultiSelect">False</Property>
+        <Property name="WantValueBeforePrint" />
+        <Property name="Maximum" />
+        <Property name="IsTotalModel">False</Property>
+        <Property name="DictValueFieldName" />
+        <Property name="CelerityInputSqlWhere" />
+        <Property name="SelectedData" />
+        <Property name="CelerityInputTableName" />
+        <Property name="Border3DStyle">Adjust</Property>
+        <Property name="LabItemType" />
+        <Property name="Data" />
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="TabIndex">239</Property>
+        <Property name="BottomLineColor">Black</Property>
+        <Property name="Enabled">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="LimitedString" />
+        <Property name="BorderType">None</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="CelerityInputValueColumnName" />
+        <Property name="NoPrintText">
+        </Property>
+      </Object>
+      <Object type="Wis.Anes.Framework.Controls.MLabel, Anes.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MLabel2147483646" children="Controls">
+        <Property name="BackColor">White</Property>
+        <Property name="NoPrint">False</Property>
+        <Property name="SymbolType">None</Property>
+        <Property name="MultiLine">False</Property>
+        <Property name="VarKey" />
+        <Property name="Text">病 人 ID</Property>
+        <Property name="PrintYOffSet">0</Property>
+        <Property name="Size">59, 12</Property>
+        <Property name="TabIndex">238</Property>
+        <Property name="Name">MLabel2147483646</Property>
+        <Property name="Location">16, 31</Property>
+        <Property name="DataBindings">
+          <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+        </Property>
+        <Property name="PrintXOffSet">0</Property>
+        <Property name="BottomLine">False</Property>
+        <Property name="ForeColor">Red</Property>
+        <Property name="DotBorder">False</Property>
+        <Property name="AutoSize">True</Property>
+        <Property name="Font">宋体, 9pt, style=Bold</Property>
+      </Object>
+      <Property name="Dock">Fill</Property>
+      <Property name="Font">宋体, 9pt</Property>
+      <Property name="Size">723, 488</Property>
+      <Property name="TabIndex">12</Property>
+      <Property name="Location">0, 0</Property>
+      <Property name="DataBindings">
+        <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+      </Property>
+      <Property name="Name">Panel1</Property>
+    </Object>
+    <Property name="BackColor">White</Property>
+    <Property name="Name">Form1</Property>
+    <Property name="DataBindings">
+      <Property name="DefaultDataSourceUpdateMode">OnValidation</Property>
+    </Property>
+    <Property name="AutoScroll">True</Property>
+    <Property name="ClientSize">723, 488</Property>
+    <Property name="FormBorderStyle">None</Property>
+  </Object>

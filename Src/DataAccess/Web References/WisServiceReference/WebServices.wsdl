@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SyncInterface">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strAppType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSystemClass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strInterFaceType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="struInputData" type="tns:ParmInputData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ParmInputData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="performedcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="patientid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="inpno" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="visitid" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="operid" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="startdatetime" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="stopdatetime" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="itemclass" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="itemname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="itemcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="itemspec" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="units" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="itemtype" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="itemno" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderedby" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="performedby" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="costs" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="price" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Operator" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="billingdate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="storagecode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved06" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved07" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved08" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved09" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved10" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="reserved11" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="reserved12" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="reserved13" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="reserved14" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="reserved15" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="reserved16" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved17" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved18" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved19" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="reserved20" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="appDataset">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SyncInterfaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncInterfaceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLogDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strFormat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLogDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLogDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SyncInterfaceSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncInterface" />
+  </wsdl:message>
+  <wsdl:message name="SyncInterfaceSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncInterfaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLogDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLogDate" />
+  </wsdl:message>
+  <wsdl:message name="GetLogDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLogDateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServicesSoap">
+    <wsdl:operation name="SyncInterface">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">统一调用平台</wsdl:documentation>
+      <wsdl:input message="tns:SyncInterfaceSoapIn" />
+      <wsdl:output message="tns:SyncInterfaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogDate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">读出LOG日志文件</wsdl:documentation>
+      <wsdl:input message="tns:GetLogDateSoapIn" />
+      <wsdl:output message="tns:GetLogDateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServicesSoap" type="tns:WebServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SyncInterface">
+      <soap:operation soapAction="http://tempuri.org/SyncInterface" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogDate">
+      <soap:operation soapAction="http://tempuri.org/GetLogDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServicesSoap12" type="tns:WebServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SyncInterface">
+      <soap12:operation soapAction="http://tempuri.org/SyncInterface" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogDate">
+      <soap12:operation soapAction="http://tempuri.org/GetLogDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServices">
+    <wsdl:port name="WebServicesSoap" binding="tns:WebServicesSoap">
+      <soap:address location="http://172.20.88.42:8091/WebServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServicesSoap12" binding="tns:WebServicesSoap12">
+      <soap12:address location="http://172.20.88.42:8091/WebServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

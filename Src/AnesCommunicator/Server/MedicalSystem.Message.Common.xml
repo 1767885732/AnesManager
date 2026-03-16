@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MedicalSystem.Message.Common</name>
+    </assembly>
+    <members>
+        <member name="T:MedicalSystem.Message.Common.MessageUser">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="M:MedicalSystem.Message.Common.MessageUser.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:MedicalSystem.Message.Common.MessageUser.Dispose">
+            <summary>
+            释放定时器
+            </summary>
+        </member>
+        <member name="F:MedicalSystem.Message.Common.MessageUser.Timer">
+            <summary>
+            定时器
+            </summary>
+        </member>
+        <member name="P:MedicalSystem.Message.Common.MessageUser.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:MedicalSystem.Message.Common.MessageUser.GroupName">
+            <summary>
+            分组信息
+            </summary>
+        </member>
+        <member name="P:MedicalSystem.Message.Common.MessageUser.ConnectionId">
+            <summary>
+            连接ID
+            </summary>
+        </member>
+        <member name="P:MedicalSystem.Message.Common.MessageUser.count">
+            <summary>
+            心跳默认20秒一次
+            </summary>
+        </member>
+        <member name="E:MedicalSystem.Message.Common.MessageUser.action">
+            <summary>
+            Action
+            </summary>
+        </member>
+    </members>
+</doc>

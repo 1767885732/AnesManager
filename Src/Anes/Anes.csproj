@@ -1,0 +1,1416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B13697C-AA2D-4453-8635-134F8065C837}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wis.Anes</RootNamespace>
+    <AssemblyName>Anes</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>128.ico</ApplicationIcon>
+    <Win32Resource>
+    </Win32Resource>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\IIS\湖南龙山县人民医院\麻醉\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>5.1.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug64|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug64|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8C43E91D500489E0E15E291BD427BBC97654DB9A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Anes_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevHandlerLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\DevHandlerLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Docare.Updater">
+      <HintPath>..\..\Lib\Docare.Updater.exe</HintPath>
+    </Reference>
+    <Reference Include="Docare.Updater.Connection.v2.0">
+      <HintPath>..\..\Lib\Docare.Updater.Connection.v2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="SkinProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\SkinProject1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constants\ViewNames.cs" />
+    <Compile Include="Controls\BedHeadInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CostomDoc\CustomAssessmentBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CostomDoc\CustomAssessmentBase.designer.cs">
+      <DependentUpon>CustomAssessmentBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CostomDoc\CustomCommonBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CostomDoc\CustomCommonBase.designer.cs">
+      <DependentUpon>CustomCommonBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrameWork\AnesMenuCollection.cs" />
+    <Compile Include="FrameWork\ApplicationManager.cs" />
+    <Compile Include="FrameWork\CommonMenuBuilder.cs" />
+    <Compile Include="FrameWork\CommonViewBuilder.cs" />
+    <Compile Include="FrameWork\IRender.cs" />
+    <Compile Include="FrameWork\MenuBuilder.cs" />
+    <Compile Include="Layouts\TopBarControlEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\TopBarControlEx.Designer.cs">
+      <DependentUpon>TopBarControlEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAnes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginAnes.designer.cs">
+      <DependentUpon>LoginAnes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShellFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShellFrm.designer.cs">
+      <DependentUpon>ShellFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\LoadMask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\LoadMask.designer.cs">
+      <DependentUpon>LoadMask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\SimpleFactory.cs" />
+    <Compile Include="Views\ACS\AcsContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ACS\AcsContent.Designer.cs">
+      <DependentUpon>AcsContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AnesPath\AnesPath.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AnesPath\AnesPath.Designer.cs">
+      <DependentUpon>AnesPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AnesPath\InfoCheckBeforeOperation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\AnesPath\InfoCheckBeforeOperation.Designer.cs">
+      <DependentUpon>InfoCheckBeforeOperation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\PatEMRInfoInputFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\PatEMRInfoInputFrm.Designer.cs">
+      <DependentUpon>PatEMRInfoInputFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\PatientEMRInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\PatientEMRInfo.Designer.cs">
+      <DependentUpon>PatientEMRInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Information\OperationNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Information\OperationNotice.designer.cs">
+      <DependentUpon>OperationNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Information\ScreenInfoNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Information\ScreenInfoNotice.Designer.cs">
+      <DependentUpon>ScreenInfoNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Information\PatientAlarm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Information\PatientAlarm.Designer.cs">
+      <DependentUpon>PatientAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\OperationCanceled.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\OperationCanceled.Designer.cs">
+      <DependentUpon>OperationCanceled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\OperationDocQualityControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\OperationDocQualityControl.Designer.cs">
+      <DependentUpon>OperationDocQualityControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\OperationScaleConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\OperationScaleConfig.Designer.cs">
+      <DependentUpon>OperationScaleConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\OperationSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\OperationSchedule.Designer.cs">
+      <DependentUpon>OperationSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\MzzjControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\MzzjControl1.Designer.cs">
+      <DependentUpon>MzzjControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Patient\PatientContentViewNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Patient\PatientContentViewNew.Designer.cs">
+      <DependentUpon>PatientContentViewNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Process\OperationProcess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Process\OperationProcess.designer.cs">
+      <DependentUpon>OperationProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\CurstomGridView\CustomGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataBaseConfigFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBaseConfigFrm.Designer.cs">
+      <DependentUpon>DataBaseConfigFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\DialogHostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layouts\DialogHostForm.Designer.cs">
+      <DependentUpon>DialogHostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\LeftBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\LeftBarControl.Designer.cs">
+      <DependentUpon>LeftBarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\MecicalDocBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\MecicalDocBarControl.Designer.cs">
+      <DependentUpon>MecicalDocBarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\TopBarControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\TopBarControl.Designer.cs">
+      <DependentUpon>TopBarControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\WorkSpaceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layouts\WorkSpaceControl.Designer.cs">
+      <DependentUpon>WorkSpaceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doc\MedicalPaper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doc\MedicalPaper.Designer.cs">
+      <DependentUpon>MedicalPaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BedHeadInformation.resx">
+      <DependentUpon>BedHeadInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostomDoc\CustomAssessmentBase.resx">
+      <DependentUpon>CustomAssessmentBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CostomDoc\CustomCommonBase.resx">
+      <DependentUpon>CustomCommonBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBaseConfigFrm.resx">
+      <DependentUpon>DataBaseConfigFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\DialogHostForm.resx">
+      <DependentUpon>DialogHostForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\LeftBarControl.resx">
+      <DependentUpon>LeftBarControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\MecicalDocBarControl.resx">
+      <DependentUpon>MecicalDocBarControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\TopBarControl.resx">
+      <DependentUpon>TopBarControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\TopBarControlEx.resx">
+      <DependentUpon>TopBarControlEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layouts\WorkSpaceControl.resx">
+      <DependentUpon>WorkSpaceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginAnes.resx">
+      <DependentUpon>LoginAnes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doc\MedicalPaper.resx">
+      <DependentUpon>MedicalPaper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PwdChangeFrm.resx">
+      <DependentUpon>PwdChangeFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShellFrm.resx">
+      <DependentUpon>ShellFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\LoadMask.resx">
+      <DependentUpon>LoadMask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\AssayReport.resx">
+      <DependentUpon>AssayReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\CheckInfoPanel.resx">
+      <DependentUpon>CheckInfoPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\DocumentsPanel.resx">
+      <DependentUpon>DocumentsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\DocumentsSelect.resx">
+      <DependentUpon>DocumentsSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\OrderInfoPanel.resx">
+      <DependentUpon>OrderInfoPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\PatEMRInfoInputFrm.resx">
+      <DependentUpon>PatEMRInfoInputFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Monitor\BedManager.resx">
+      <DependentUpon>BedManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Monitor\SelectMonitor.resx">
+      <DependentUpon>SelectMonitor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\AnesthesiaEventDictSelector.resx">
+      <DependentUpon>AnesthesiaEventDictSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\AnesthesiaEventsEditor.resx">
+      <DependentUpon>AnesthesiaEventsEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\BloodGasDataEditor.resx">
+      <DependentUpon>BloodGasDataEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\FloatFrm.resx">
+      <DependentUpon>FloatFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\HemodynamicsFigureOut.resx">
+      <DependentUpon>HemodynamicsFigureOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\MonitorDataEditor.resx">
+      <DependentUpon>MonitorDataEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\MzzjControl1.resx">
+      <DependentUpon>MzzjControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\OperationCanceled.resx">
+      <DependentUpon>OperationCanceled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\OperationShift.resx">
+      <DependentUpon>OperationShift.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\PatMonitorEditor.resx">
+      <DependentUpon>PatMonitorEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pandect\OperationRoomContent.resx">
+      <DependentUpon>OperationRoomContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pandect\OperationRoomPandect.resx">
+      <DependentUpon>OperationRoomPandect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Patient\PatientContentView.resx">
+      <DependentUpon>PatientContentView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Patient\PatientContentViewNew.resx">
+      <DependentUpon>PatientContentViewNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Patient\PatientListView.resx">
+      <DependentUpon>PatientListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Patient\PatientSelectedDetail.resx">
+      <DependentUpon>PatientSelectedDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Setting\CurstomGridView\CustomGridView.resx">
+      <DependentUpon>CustomGridView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Setting\EditDict.resx">
+      <DependentUpon>EditDict.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Setting\EditTemplet.resx">
+      <DependentUpon>EditTemplet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Setting\SystemConfig.resx">
+      <DependentUpon>SystemConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Setting\UserConfig.resx">
+      <DependentUpon>UserConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Anes_TemporaryKey.pfx" />
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DocTemplate\客户化医院\Anes5.exe.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DocTemplate\客户化医院\Custom.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hs_medsys.key">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PwdChangeFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PwdChangeFrm.designer.cs">
+      <DependentUpon>PwdChangeFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceProxies\AnalgesicProxy.cs" />
+    <Compile Include="ServiceProxies\AnesthesiaSheetProxy.cs" />
+    <Compile Include="ServiceProxies\CareDocsProxy.cs" />
+    <Compile Include="ServiceProxies\CPBProxy.cs" />
+    <Compile Include="ServiceProxies\DictProxy.cs" />
+    <Compile Include="ServiceProxies\PatientInformationsProxy.cs" />
+    <Compile Include="ServiceProxies\StatisticsProxy.cs" />
+    <Compile Include="ServiceProxies\SyncProxy.cs" />
+    <Compile Include="ServiceProxies\SystemHelper\DataBaseConfigHelperProxy.cs" />
+    <Compile Include="ServiceProxies\SystemHelper\SystemHelper.cs" />
+    <Compile Include="ServiceProxies\SystemHelper\LoginHelperProxy.cs" />
+    <Compile Include="ServiceProxies\CommonProxy.cs" />
+    <Compile Include="ServiceProxies\ConfigurationProxy.cs" />
+    <Compile Include="ServiceProxies\PermissionProxy.cs" />
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\AssayReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\AssayReport.designer.cs">
+      <DependentUpon>AssayReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\CheckInfoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\CheckInfoPanel.designer.cs">
+      <DependentUpon>CheckInfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\DocumentsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\DocumentsPanel.designer.cs">
+      <DependentUpon>DocumentsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\DocumentsSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\DocumentsSelect.designer.cs">
+      <DependentUpon>DocumentsSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\OrderInfoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\OrderInfoPanel.designer.cs">
+      <DependentUpon>OrderInfoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EMR\SyncHis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EMR\SyncHis.Designer.cs">
+      <DependentUpon>SyncHis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LastMonitorData\LastMonitorData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\LastMonitorData\MonitorDataItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Monitor\BedManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Monitor\BedManager.Designer.cs">
+      <DependentUpon>BedManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Monitor\SelectMonitor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Monitor\SelectMonitor.Designer.cs">
+      <DependentUpon>SelectMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\AnesthesiaEventDictSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\AnesthesiaEventDictSelector.Designer.cs">
+      <DependentUpon>AnesthesiaEventDictSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\AnesthesiaEventsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\AnesthesiaEventsEditor.Designer.cs">
+      <DependentUpon>AnesthesiaEventsEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\BloodGasDataEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\BloodGasDataEditor.Designer.cs">
+      <DependentUpon>BloodGasDataEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\FloatFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\FloatFrm.Designer.cs">
+      <DependentUpon>FloatFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\HemodynamicsFigureOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\HemodynamicsFigureOut.Designer.cs">
+      <DependentUpon>HemodynamicsFigureOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\InOperation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\MonitorDataEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\MonitorDataEditor.Designer.cs">
+      <DependentUpon>MonitorDataEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\OperationShift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\OperationShift.Designer.cs">
+      <DependentUpon>OperationShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Operation\PatMonitorEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\PatMonitorEditor.Designer.cs">
+      <DependentUpon>PatMonitorEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pandect\OperationRoomContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pandect\OperationRoomContent.Designer.cs">
+      <DependentUpon>OperationRoomContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pandect\OperationRoomPandect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pandect\OperationRoomPandect.Designer.cs">
+      <DependentUpon>OperationRoomPandect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pandect\PandectOperationStatusAction.cs" />
+    <Compile Include="Views\Patient\PatientContentView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Patient\PatientContentView.Designer.cs">
+      <DependentUpon>PatientContentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Patient\PatientListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Patient\PatientListView.Designer.cs">
+      <DependentUpon>PatientListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Patient\PatientSelectedDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Patient\PatientSelectedDetail.Designer.cs">
+      <DependentUpon>PatientSelectedDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\EditDict.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Setting\EditDict.Designer.cs">
+      <DependentUpon>EditDict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\EditTemplet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Setting\EditTemplet.Designer.cs">
+      <DependentUpon>EditTemplet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\SystemConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Setting\SystemConfig.Designer.cs">
+      <DependentUpon>SystemConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Setting\UserConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Setting\UserConfig.Designer.cs">
+      <DependentUpon>UserConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Specifications\ThreeReviewSpecifications.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Specifications\ThreeReviewSpecifications.Designer.cs">
+      <DependentUpon>ThreeReviewSpecifications.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="128.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="AnesWorkDoc\气管内插管全身麻醉.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AnesWorkDoc\硬膜外神经阻滞操作常规.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AnesWorkDoc\联合椎管内神经阻滞操作常规.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AnesWorkDoc\臂丛神经阻滞操作常规.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AnesWorkDoc\蛛网膜下腔阻滞操作常规.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AnesWorkDoc\静脉麻醉操作常规.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AnesWorkDoc\颈丛神经阻滞操作常规.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DictNormal.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="DocTemplate\客户化医院\CustomDocTempletFlags.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ACS\AcsContent.resx">
+      <DependentUpon>AcsContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AnesPath\AnesPath.resx">
+      <DependentUpon>AnesPath.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AnesPath\InfoCheckBeforeOperation.resx">
+      <DependentUpon>InfoCheckBeforeOperation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EMR\PatientEMRInfo.resx">
+      <DependentUpon>PatientEMRInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Information\OperationNotice.resx">
+      <DependentUpon>OperationNotice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Information\ScreenInfoNotice.resx">
+      <DependentUpon>ScreenInfoNotice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Information\PatientAlarm.resx">
+      <DependentUpon>PatientAlarm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LastMonitorData\LastMonitorData.resx">
+      <DependentUpon>LastMonitorData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\OperationDocQualityControl.resx">
+      <DependentUpon>OperationDocQualityControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\OperationScaleConfig.resx">
+      <DependentUpon>OperationScaleConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\OperationSchedule.resx">
+      <DependentUpon>OperationSchedule.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Process\OperationProcess.resx">
+      <DependentUpon>OperationProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Specifications\ThreeReviewSpecifications.resx">
+      <DependentUpon>ThreeReviewSpecifications.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="DocTemplate\客户化医院\三甲评审.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\三甲评审指标记录.xml" />
+    <Content Include="DocTemplate\客户化医院\不良事件上报.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\不良事件报告表.xml" />
+    <Content Include="DocTemplate\客户化医院\同意书.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\同意书反面.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\器械清点.xml" />
+    <Content Include="DocTemplate\客户化医院\复苏室交接单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\复苏室记录单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\复苏评估单2.xml" />
+    <Content Include="DocTemplate\客户化医院\安全核查表.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\患者详情.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\手术信息.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\手术护理单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\手术护理工作访视记录单.xml" />
+    <Content Include="DocTemplate\客户化医院\手术护理记录.xml" />
+    <Content Include="DocTemplate\客户化医院\手术清点记录.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\手术风险评估单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\护理术前访视.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\收费配置.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\新版麻醉单%28一%29.xml" />
+    <Content Include="DocTemplate\客户化医院\新版麻醉单%28二%29.xml" />
+    <Content Include="DocTemplate\客户化医院\无痛分娩麻醉同意书.xml" />
+    <Content Include="DocTemplate\客户化医院\更改麻醉方式知情同意书.xml" />
+    <Content Include="DocTemplate\客户化医院\术中药品登记.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\术前访视.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\术后登记.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\术后访视单.xml" />
+    <Content Include="DocTemplate\客户化医院\消化内镜麻醉同意书.xml" />
+    <Content Include="DocTemplate\客户化医院\深静脉穿刺同意书.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\精神药品知情同意书.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\自费用物同意书.xml" />
+    <Content Include="DocTemplate\客户化医院\输血效果评估单.xml" />
+    <Content Include="DocTemplate\客户化医院\镇痛观察单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\镇痛记录单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉前小结.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉单反.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉单反面.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉同意书%28空白%29.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉同意书.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉同意书（空白）.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉后镇痛效果评估单.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉复苏单.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉复苏室病情评估单.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉总结单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉总结随访.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉恢复单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉指控指标单.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉术后随访记录单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉计划.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉计划单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉记录单%28一%29.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉记录单%28二%29.xml" />
+    <Content Include="DocTemplate\客户化医院\麻醉记录单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉质控.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DocTemplate\客户化医院\麻醉质控指标单.xml" />
+    <Content Include="ICON.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\backgroudr-nav.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\button-hover.png" />
+    <None Include="Resources\button-normal.png" />
+    <None Include="Resources\femal-small.png" />
+    <None Include="Resources\load.gif" />
+    <None Include="Resources\male-small.png" />
+    <None Include="Resources\menu.gif" />
+    <None Include="Resources\module.gif" />
+    <None Include="Resources\off-.png" />
+    <None Include="Resources\subTab-selected.png" />
+    <None Include="Resources\subTab-selected1.png" />
+    <None Include="Resources\tab-normal.png" />
+    <None Include="Resources\tab-selected.png" />
+    <None Include="Resources\卡片1.png" />
+    <None Include="Resources\卡片2.png" />
+    <None Include="Resources\男图标.png" />
+    <None Include="Resources\女图标.png" />
+    <None Include="Resources\01.png" />
+    <None Include="Resources\02.png" />
+    <None Include="Resources\Artboard.png" />
+    <None Include="Resources\patientCard.png" />
+    <None Include="Resources\patientCardSelected.png" />
+    <None Include="Resources\specialStatus.png" />
+    <Content Include="printMark.xml" />
+    <Content Include="Resources\cygn 2.png" />
+    <Content Include="Resources\cygn.png" />
+    <Content Include="Resources\hzcz 2.png" />
+    <Content Include="Resources\hzcz.png" />
+    <Content Include="Resources\qt 2.png" />
+    <Content Include="Resources\qt.png" />
+    <None Include="Resources\TwoNormal.png" />
+    <None Include="Resources\TwoSelected.png" />
+    <Content Include="Resources\xtjc 2.png" />
+    <Content Include="Resources\xtjc.png" />
+    <Content Include="Resources\基本信息.png" />
+    <Content Include="Resources\手术人员.png" />
+    <Content Include="Resources\手术信息.png" />
+    <Content Include="Skin\ButtonBak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\ButtonBakSelected.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\clock.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\clock.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\DocumentLeft.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\DocumentRight.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\GridHeader.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\icon1.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\icon2.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\LightImage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\loading.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\Loading.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\Logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\logo2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\logo3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\NormalImage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\PassedImage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\PatientInfoLine.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\people.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\people.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\people1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\people2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\peoplebak.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\picOperRoomNoPerson.png" />
+    <Content Include="Skin\Pump11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\Pump2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\Pump3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\qidongzhong.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\Room.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\Room1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\TabPageRight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\TopBack.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\topBg2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\topspliter.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\topspliter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\top_bj.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\top_右侧图.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\top_患者信息背景.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\三角形.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\中间背景2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\其它.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\大事件.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\大事件.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\常用功能.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\常用功能.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\患者.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\患者操作.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\患者操作.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\手术室间号 %281%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\手术室间号 %282%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\手术间紧急提示.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\放射.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\文档图标.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\时钟.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\电子病历.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\电子病历.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\登录界面.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\登录界面1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\登录界面2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\紧急.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\通用Panel右上角.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\通用Panel左上角.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\通用Panel背景.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\闹钟.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skin\隔离.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.Data.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.RichEdit.v10.1.Core.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.Utils.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.Xpf.Grid.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.Xpf.NavBar.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.Xpo.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraBars.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraCharts.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraEditors.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraGrid.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraLayout.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraNavBar.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraPivotGrid.v10.1.Core.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraPrinting.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraReports.v10.1.Extensions.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraReports.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraScheduler.v10.1.Core.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraScheduler.v10.1.Extensions.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraScheduler.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraSpellChecker.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraTreeList.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraVerticalGrid.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\DevExpress.XtraWizard.v10.1.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\PresentationCore.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zh-CHS\System.Printing.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccessControl\AccessControl.csproj">
+      <Project>{0aae70c4-7558-49bb-a54d-6fbd141d6746}</Project>
+      <Name>AccessControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Anes.Custom.SDJiNingYiXueYuan\Anes.Custom.csproj">
+      <Project>{03963B7B-D0D8-4BA3-98B8-1C7ED9DD8A91}</Project>
+      <Name>Anes.Custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AnesCommunicator\AnesCommunicator\AnesCommunicator.csproj">
+      <Project>{b51e1aba-38c3-4bc8-9644-c1018fa97880}</Project>
+      <Name>AnesCommunicator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ApplicationFramework\ApplicationFramework.csproj">
+      <Project>{f9bd81e5-a8ef-4632-9a38-741d84c45f36}</Project>
+      <Name>ApplicationFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessComponent\Anes.BusinessComponent.csproj">
+      <Project>{735FBEB8-F834-4722-AABA-38845ACE9474}</Project>
+      <Name>Anes.BusinessComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessEntity\Anes.BusinessEntity.csproj">
+      <Project>{D09DFB05-5C3A-4676-B5A2-443EF2E3E071}</Project>
+      <Name>Anes.BusinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientLibrary\AnesClientLibrary.csproj">
+      <Project>{94e423ce-ee78-43d2-ac47-5611fc5d8612}</Project>
+      <Name>AnesClientLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\Anes.DataAccess.csproj">
+      <Project>{1BE7C316-24CF-4784-AF75-54AC2F67DD48}</Project>
+      <Name>Anes.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Anes.Framework.csproj">
+      <Project>{686873DE-589B-4382-A6FB-72408DD680EB}</Project>
+      <Name>Anes.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Anes.Interface.csproj">
+      <Project>{DCDEE606-7AC0-4B72-AD46-09402BE6D3AF}</Project>
+      <Name>Anes.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Score\Score.csproj">
+      <Project>{3059098A-7F49-44C9-9F15-76AEE0BB6F0B}</Project>
+      <Name>Score</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skin\AnesSkin.csproj">
+      <Project>{52b2c7da-9107-41d0-a912-e10b6304a0b8}</Project>
+      <Name>AnesSkin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Score\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

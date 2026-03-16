@@ -1,0 +1,1 @@
+﻿{\"CurrentCommunicator\":{\"CurrentSelectedUser\":\"MDSD\",\"CurrentLoginUser\":\"MDSD\",\"CurrentLoginRoomNo\":\"01\",\"ConnectionString\":\"192.168.18.171:8899\",\"ConnectionStatus\":\"True\"},\"EmergencyCall\":{\"Message\":\"【01手术间请求支援！】\",\"OperatingRoom\":\"01\"}}

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Common" targetNamespace="http://tempuri.org/Common.xsd" xmlns:mstns="http://tempuri.org/Common.xsd" xmlns="http://tempuri.org/Common.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=docarekh;User ID=medsurgery;Unicode=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="docarekh.MEDSURGERY" Provider="System.Data.OracleClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Common" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Common" msprop:Generator_UserDSName="Common" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OPER_SCALE_CONFIG" msprop:Generator_UserTableName="OPER_SCALE_CONFIG" msprop:Generator_RowDeletedName="OPER_SCALE_CONFIGRowDeleted" msprop:Generator_TableClassName="OPER_SCALE_CONFIGDataTable" msprop:Generator_RowChangedName="OPER_SCALE_CONFIGRowChanged" msprop:Generator_RowClassName="OPER_SCALE_CONFIGRow" msprop:Generator_RowChangingName="OPER_SCALE_CONFIGRowChanging" msprop:Generator_RowEvArgName="OPER_SCALE_CONFIGRowChangeEvent" msprop:Generator_RowEvHandlerName="OPER_SCALE_CONFIGRowChangeEventHandler" msprop:Generator_TablePropName="OPER_SCALE_CONFIG" msprop:Generator_TableVarName="tableOPER_SCALE_CONFIG" msprop:Generator_RowDeletingName="OPER_SCALE_CONFIGRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USER_ID" msprop:Generator_UserColumnName="USER_ID" msprop:Generator_ColumnPropNameInRow="USER_ID" msprop:Generator_ColumnVarNameInTable="columnUSER_ID" msprop:Generator_ColumnPropNameInTable="USER_IDColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OPER_CODE" msprop:Generator_UserColumnName="OPER_CODE" msprop:Generator_ColumnPropNameInRow="OPER_CODE" msprop:Generator_ColumnVarNameInTable="columnOPER_CODE" msprop:Generator_ColumnPropNameInTable="OPER_CODEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OPER_NAME" msprop:Generator_UserColumnName="OPER_NAME" msprop:Generator_ColumnPropNameInRow="OPER_NAME" msprop:Generator_ColumnVarNameInTable="columnOPER_NAME" msprop:Generator_ColumnPropNameInTable="OPER_NAMEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MED_USER_VS_OPERSCALE" msprop:Generator_UserTableName="MED_USER_VS_OPERSCALE" msprop:Generator_RowDeletedName="MED_USER_VS_OPERSCALERowDeleted" msprop:Generator_TableClassName="MED_USER_VS_OPERSCALEDataTable" msprop:Generator_RowChangedName="MED_USER_VS_OPERSCALERowChanged" msprop:Generator_RowClassName="MED_USER_VS_OPERSCALERow" msprop:Generator_RowChangingName="MED_USER_VS_OPERSCALERowChanging" msprop:Generator_RowEvArgName="MED_USER_VS_OPERSCALERowChangeEvent" msprop:Generator_RowEvHandlerName="MED_USER_VS_OPERSCALERowChangeEventHandler" msprop:Generator_TablePropName="MED_USER_VS_OPERSCALE" msprop:Generator_TableVarName="tableMED_USER_VS_OPERSCALE" msprop:Generator_RowDeletingName="MED_USER_VS_OPERSCALERowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DEPT_CODE" msprop:Generator_UserColumnName="DEPT_CODE" msprop:Generator_ColumnPropNameInRow="DEPT_CODE" msprop:Generator_ColumnVarNameInTable="columnDEPT_CODE" msprop:Generator_ColumnPropNameInTable="DEPT_CODEColumn" type="xs:string" />
+              <xs:element name="OPER_SCALE" msprop:Generator_UserColumnName="OPER_SCALE" msprop:Generator_ColumnPropNameInRow="OPER_SCALE" msprop:Generator_ColumnVarNameInTable="columnOPER_SCALE" msprop:Generator_ColumnPropNameInTable="OPER_SCALEColumn" type="xs:decimal" />
+              <xs:element name="OPER_NAME" msprop:Generator_UserColumnName="OPER_NAME" msprop:Generator_ColumnPropNameInRow="OPER_NAME" msprop:Generator_ColumnVarNameInTable="columnOPER_NAME" msprop:Generator_ColumnPropNameInTable="OPER_NAMEColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OPER_SCALE_CONFIG" />
+      <xs:field xpath="mstns:USER_ID" />
+      <xs:field xpath="mstns:OPER_CODE" />
+      <xs:field xpath="mstns:OPER_NAME" />
+    </xs:unique>
+    <xs:unique name="MED_USER_VS_OPERSCALE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MED_USER_VS_OPERSCALE" />
+      <xs:field xpath="mstns:DEPT_CODE" />
+      <xs:field xpath="mstns:OPER_SCALE" />
+      <xs:field xpath="mstns:OPER_NAME" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

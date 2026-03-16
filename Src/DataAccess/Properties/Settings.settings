@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Wis.Anes.DataAccess.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Anes_DataAccess_WisServiceReference_WebServices" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://172.20.88.42:8091/WebServices.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,13 @@
+1.Medicalsystem.Anes.Framework.Controls.Base.AnesBand
+增加RightRetainWidth属性：右侧留存宽度，为了支持右侧Y坐标轴
+2.Medicalsystem.Anes.Framework.Controls.MedDrugGraph
+增加属性Title和TitleWidth，及相关绘制调整：标题和标题宽度，支持左侧自定义配置控件标题
+3.Medicalsystem.Anes.Framework.Controls.MedGridGraph
+增加属性Title和TitleWidth，及相关绘制调整：标题和标题宽度，支持左侧自定义配置控件标题
+4.Medicalsystem.Anes.Framework.Controls.MedVitalSignGraph
+增加属性Title和TitleWidth，及相关绘制调整：标题和标题宽度，支持左侧自定义配置控件标题
+增加RightYAxis，及相关绘制调整：支持左侧坐标轴画在右侧
+5.Medicalsystem.Anes.Framework.Controls.MedLegengGraph
+增加CustomDraw事件
+6.Medicalsystem.Anes.Framework.Documents.BaseDoc
+翻页代码中增加隐藏显示图例控件。

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Wis.AccessControl.Entity.User">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAgAAAAACAAABAAAAAAA=</HashCode>
+      <FileName>Entity\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wis.AccessControl.Entity.Role">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wis.AccessControl.Entity.Resource">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <AssociationLine Name="Parent" Type="Wis.AccessControl.Entity.Resource" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.625" Y="3" />
+        <Point X="5.625" Y="2.886" />
+        <Point X="4.875" Y="2.886" />
+        <Point X="4.875" Y="3.75" />
+        <Point X="5.25" Y="3.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.098" Y="0.304" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAAAAAQAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entity\Resource.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Wis.AccessControl.Entity.Permission">
+    <Position X="8" Y="3" Width="1.75" />
+    <AssociationLine Name="Resource" Type="Wis.AccessControl.Entity.Resource">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.29" Y="0.084" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Operation" Type="Wis.AccessControl.Entity.OperationEnum">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.14" Y="0.101" Height="0.181" Width="0.962" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="OperatingMode" Type="Wis.AccessControl.Entity.OperatingModeEnum">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.698" Y="0.567" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAAAAAQAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Entity\Permission.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Resource" />
+      <Property Name="Operation" />
+      <Property Name="OperatingMode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Wis.AccessControl.Entity.ExtendInfo" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\ExtendInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Wis.AccessControl.Entity.OperationEnum">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAACAAAAAEAAAAIAIAIQAAAAAA=</HashCode>
+      <FileName>Entity\OperationEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Wis.AccessControl.Entity.OperatingModeEnum">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\OperatingModeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

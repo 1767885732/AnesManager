@@ -1,0 +1,43 @@
+drop tablespace tsp_medcomm including contents ;
+drop tablespace tsp_medicu including contents ;
+drop tablespace tsp_medsurgery including contents ;
+
+
+
+create tablespace tsp_MedComm
+	logging
+	datafile 'D:\ORACLE\PRODUCT\10.2.0\ORADATA\dotest\apMedComm.dbf'
+	size 100M
+	reuse
+	autoextend on
+	next 20M
+	maxsize unlimited
+	extent management local segment space management auto;
+
+
+create tablespace tsp_MedIcu
+	logging
+	datafile 'D:\ORACLE\PRODUCT\10.2.0\ORADATA\dotest\apMedIcu.dbf'
+	size 200M
+	reuse
+	autoextend on
+	next 20M
+	maxsize unlimited
+	extent management local segment space management auto;
+
+
+create tablespace tsp_Medsurgery
+	logging
+	datafile 'D:\ORACLE\PRODUCT\10.2.0\ORADATA\dotest\apMedsurgery.dbf'
+	size 300M
+	reuse
+	autoextend on
+	next 20M
+	maxsize unlimited
+	extent management local segment space management auto;
+
+
+--创建同义词
+drop  PUBLIC SYNONYM med_users_hisusers
+CREATE or replace PUBLIC SYNONYM med_users_hisusers FOR MEDSURGERY.med_users_hisusers;
+

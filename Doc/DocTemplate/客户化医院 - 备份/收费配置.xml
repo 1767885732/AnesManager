@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CONFIG>
+  <COLUMN caption="项目分类" fieldname="ITEM_CLASS" edit="true" width="100" edittype="combobox" defaultvalue="">
+    <DICT default="true">
+      <RECORD>
+        <ITEM_NAME>事件</ITEM_NAME><ITEM_CODE>1</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>麻药</ITEM_NAME><ITEM_CODE>2</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>输液</ITEM_NAME><ITEM_CODE>3</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>吸氧</ITEM_NAME><ITEM_CODE>4</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>手术开始、结束</ITEM_NAME><ITEM_CODE>5</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>麻醉开始、结束</ITEM_NAME><ITEM_CODE>6</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>插管</ITEM_NAME><ITEM_CODE>7</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>拔管</ITEM_NAME><ITEM_CODE>8</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>控制呼吸</ITEM_NAME><ITEM_CODE>A</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>用药</ITEM_NAME><ITEM_CODE>C</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>自主呼吸</ITEM_NAME><ITEM_CODE>Y</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>麻醉方式</ITEM_NAME><ITEM_CODE>M</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>手术方式</ITEM_NAME><ITEM_CODE>O</ITEM_CODE>
+      </RECORD>
+    </DICT>
+  </COLUMN>
+  <COLUMN  caption="项目名称" fieldname="ITEM_NAME" edit="true" width="200" edittype="combobox" defaultvalue="" depend="ITEM_CLASS">
+    <DICT default="true" dict_name="WIS_ANES_EVENT_OPEN" dict_valuefield="ITEM_NAME" filter="ITEM_CLASS = '#(ITEM_CLASS)#'"/>
+    <DICT dependvalue="麻醉方式" dict_name="WIS_DICT_ANES" dict_valuefield="anes_name"/>
+    <DICT dependvalue="手术方式" dict_name="WIS_DICT_OPERATION" dict_valuefield="oper_name"/>
+  </COLUMN>
+  <!--COLUMN caption="收费方式" fieldname="BILL_MODE" edit="true" width="70" edittype="combobox">
+    <DICT default="true">
+      <RECORD>
+        <ITEM_NAME>按剂量</ITEM_NAME><ITME_CODE>A</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>按时间</ITEM_NAME><ITME_CODE>B</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>按项目</ITEM_NAME><ITME_CODE>C</ITME_CODE>
+      </RECORD>
+    </DICT>
+  </COLUMN>
+  <COLUMN caption="结果处理规则" fieldname="BILL_RESULT_RULE" edit="true" width="100" edittype="combobox">
+    <DICT default="true">
+      <RECORD>
+        <ITEM_NAME>四舍五入</ITEM_NAME><ITME_CODE>A</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>向上取整</ITEM_NAME><ITME_CODE>B</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>按实际值</ITEM_NAME><ITME_CODE>C</ITME_CODE>
+      </RECORD>
+    </DICT>
+  </COLUMN>
+  <COLUMN caption="时间计算规则" fieldname="BILL_TIME_RULE" edit="true" width="120" edittype="combobox">
+    <DICT default="true">
+      <RECORD>
+        <ITEM_NAME>按监护仪采集时间</ITEM_NAME><ITME_CODE>A</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>按监护事件起始时间</ITEM_NAME><ITME_CODE>B</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>按进出手术室时间</ITEM_NAME><ITME_CODE>C</ITME_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>按麻醉开始结束时间</ITEM_NAME><ITME_CODE>D</ITME_CODE>
+      </RECORD>
+    </DICT>
+  </COLUMN>
+  <COLUMN caption="标准时间(h)" fieldname="BILL_STANDARD_TIME" edit="true" width="90"/-->
+  <COLUMN  caption="价表分类" fieldname="CHARGE_ITEM_CLASS" edit="true" width="90" edittype="combobox">
+    <DICT default="true">
+      <RECORD>
+        <ITEM_NAME>西药</ITEM_NAME><ITEM_CODE>A</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>中药</ITEM_NAME><ITEM_CODE>B</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>化验</ITEM_NAME><ITEM_CODE>C</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>检查</ITEM_NAME><ITEM_CODE>D</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>治疗</ITEM_NAME><ITEM_CODE>E</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>手术</ITEM_NAME><ITEM_CODE>F</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>麻醉</ITEM_NAME><ITEM_CODE>G</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>血费</ITEM_NAME><ITEM_CODE>H</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>材料</ITEM_NAME><ITEM_CODE>I</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>床位</ITEM_NAME><ITEM_CODE>J</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>护理</ITEM_NAME><ITEM_CODE>K</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>膳食</ITEM_NAME><ITEM_CODE>L</ITEM_CODE>
+      </RECORD>
+      <RECORD>
+        <ITEM_NAME>其他</ITEM_NAME><ITEM_CODE>Z</ITEM_CODE>
+      </RECORD>
+    </DICT>
+  </COLUMN>
+  <COLUMN  caption="价表名称" fieldname="CHARGE_ITEM_NAME" edit="true" width="200" edittype="combobox" depend="" combinefield="CHARGE_ITEM_CODE">
+    <DICT default="true" dict_name="CURRENT_PRICE_LIST" dict_valuefield="ITEM_NAME" combinefield="ITEM_CODE" filter="ITEM_CLASS = '#(CHARGE_ITEM_CLASS)#'" />
+  </COLUMN>
+  <!--COLUMN  caption="价表规格" fieldname="CHARGE_ITEM_SPEC" edit="true" width="90" edittype="combobox" depend="">
+    <DICT default="true" dict_name="CURRENT_PRICE_LIST" dict_valuefield="ITEM_SPEC" filter="ITEM_CLASS = '#(CHARGE_ITEM_CLASS)#' and ITEM_CODE ='#(CHARGE_ITEM_CODE)#'" />
+  </COLUMN>
+  <COLUMN  caption="价表单位" fieldname="UNITS" edit="true" width="90" edittype="combobox"  depend="">
+    <DICT default="true" dict_name="CURRENT_PRICE_LIST" dict_valuefield="UNITS" filter="ITEM_CLASS = '#(CHARGE_ITEM_CLASS)#' and ITEM_CODE ='#(CHARGE_ITEM_CODE)#' and ITEM_SPEC='#(CHARGE_ITEM_SPEC)#'" />
+  </COLUMN-->
+</CONFIG> 

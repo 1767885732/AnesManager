@@ -1,0 +1,6 @@
+MedComm登陆 PL/SQL 中 
+依次执行 MedComm登陆运行文件夹下 InitSqlSrript.sql    苏州大学附属第一医院 视图权限部分.sql
+
+
+MedSurgery 登陆  
+依次执行  MedSurgery登陆运行文件夹下 InitSqlSrript.sql        苏州大学附属第一医院 视图.sql
