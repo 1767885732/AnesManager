@@ -63,8 +63,9 @@ namespace Wis.Anes.Custom.CustomProject.Default
         {
             ShowAnesDate();
 
-            List<MRichTextBox> mlist = ReportViewer.GetControls<MRichTextBox>();
-            foreach (MRichTextBox textBox in mlist)
+            // ZFNAME-HX (MRichTextBox): 根据手术日期条件显示文本
+            List<MRichTextBox> richList = ReportViewer.GetControls<MRichTextBox>();
+            foreach (MRichTextBox textBox in richList)
             {
                 if (textBox.Name.Trim().Equals("ZFNAME-HX", StringComparison.OrdinalIgnoreCase))
                 {
@@ -76,9 +77,15 @@ namespace Wis.Anes.Custom.CustomProject.Default
                         textBox.Text = "呼吸回路套件";
                     }
                 }
-                else if (textBox.Name.Trim().Equals("ZFNAME-HX-PRICE", StringComparison.OrdinalIgnoreCase))
+            }
+
+            // ZFNAME-HX-PRICE (MTextBox): 设置初始值为52
+            List<MTextBox> boxList = ReportViewer.GetControls<MTextBox>();
+            foreach (MTextBox textBox in boxList)
+            {
+                if (textBox.Name.Trim().Equals("ZFNAME-HX-PRICE", StringComparison.OrdinalIgnoreCase))
                 {
-                    textBox.Text = "52";
+                    textBox.InitValue = "52";
                 }
             }
         }
