@@ -62,6 +62,21 @@ namespace Wis.Anes.Custom.CustomProject.Default
         protected override void OnViewBuilded(List<IUIElementHandler> handlers, Dictionary<string, DataTable> dataSources)
         {
             ShowAnesDate();
+
+            List<MRichTextBox> mlist = ReportViewer.GetControls<MRichTextBox>();
+            foreach (MRichTextBox textBox in mlist)
+            {
+                if (textBox.Name.Trim().Equals("ZFNAME-HX", StringComparison.OrdinalIgnoreCase))
+                {
+                    DateTime boundary = new DateTime(2026, 9, 8);
+
+                    // 用实际手术日期判断，而非当天日期
+                    if (_operTime > boundary)
+                    {
+                        textBox.Text = "呼吸回路套件";
+                    }
+                }
+            }
         }
         private void ShowAnesDate()
         {
