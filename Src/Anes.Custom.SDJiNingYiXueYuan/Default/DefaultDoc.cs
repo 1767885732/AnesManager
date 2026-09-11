@@ -63,29 +63,27 @@ namespace Wis.Anes.Custom.CustomProject.Default
         {
             ShowAnesDate();
 
-            // ZFNAME-HX (MRichTextBox): 根据手术日期条件显示文本
-            List<MRichTextBox> richList = ReportViewer.GetControls<MRichTextBox>();
-            foreach (MRichTextBox textBox in richList)
+            DateTime boundary = new DateTime(2026, 9, 8);
+            if (_operTime > boundary)
             {
-                if (textBox.Name.Trim().Equals("ZFNAME-HX", StringComparison.OrdinalIgnoreCase))
+                // ZFNAME-HX (MRichTextBox): 显示"呼吸回路套件"
+                List<MRichTextBox> richList = ReportViewer.GetControls<MRichTextBox>();
+                foreach (MRichTextBox textBox in richList)
                 {
-                    DateTime boundary = new DateTime(2026, 9, 8);
-
-                    // 用实际手术日期判断，而非当天日期
-                    if (_operTime > boundary)
+                    if (textBox.Name.Trim().Equals("ZFNAME-HX", StringComparison.OrdinalIgnoreCase))
                     {
                         textBox.Text = "呼吸回路套件";
                     }
                 }
-            }
 
-            // ZFNAME-HX-PRICE (MTextBox): 设置初始值为52
-            List<MTextBox> boxList = ReportViewer.GetControls<MTextBox>();
-            foreach (MTextBox textBox in boxList)
-            {
-                if (textBox.Name.Trim().Equals("ZFNAME-HX-PRICE", StringComparison.OrdinalIgnoreCase))
+                // ZFNAME-HX-PRICE (MTextBox): 初始值设为52
+                List<MTextBox> boxList = ReportViewer.GetControls<MTextBox>();
+                foreach (MTextBox textBox in boxList)
                 {
-                    textBox.InitValue = "52";
+                    if (textBox.Name.Trim().Equals("ZFNAME-HX-PRICE", StringComparison.OrdinalIgnoreCase))
+                    {
+                        textBox.InitValue = "52";
+                    }
                 }
             }
         }
