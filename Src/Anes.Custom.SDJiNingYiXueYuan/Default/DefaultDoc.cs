@@ -76,6 +76,10 @@ namespace Wis.Anes.Custom.CustomProject.Default
                         textBox.Text = "呼吸回路套件";
                     }
                 }
+                else if (textBox.Name.Trim().Equals("ZFNAME-HX-PRICE", StringComparison.OrdinalIgnoreCase))
+                {
+                    textBox.Text = "52";
+                }
             }
         }
         private void ShowAnesDate()
